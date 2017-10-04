@@ -6,7 +6,7 @@ printf("enter the value:");
 scanf(%d%d%d,&a,&b,&c);
 if(a<b)
 {
-if(a<c)
+if(b<c)
 {
 printf("large num:%d,c");
 }
