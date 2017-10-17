@@ -1,4 +1,4 @@
-Program: Leap Year
+
 
 #include<iostream>
 #include<conio.h>
@@ -8,10 +8,9 @@ using namespace std;
 int main()
 {
 
-   //declare variable
    int year;
 
-   //take user input for year
+   
    cout<<"Enter year : ";
    cin>>year;
 
@@ -24,6 +23,3 @@ int main()
    return 0;
 }
 
--via Programming Hub for Android, a top rated Programming App on Google Play
-
-https://play.google.com/store/apps/details?id=com.freeit.java
