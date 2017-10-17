@@ -1,8 +1,8 @@
-Program: Sum of n Numbers
 
-/*
-    @author: CreativeCub
-*/
+
+
+
+
 #include<iostream>
 using namespace std;
 
@@ -29,6 +29,4 @@ int main()
 }
 
 
--via Programming Hub for Android, a top rated Programming App on Google Play
 
-https://play.google.com/store/apps/details?id=com.freeit.java
