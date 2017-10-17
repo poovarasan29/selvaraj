@@ -1,8 +1,5 @@
-Program: Check a number is prime number or not by recursion
 
-/*
-    author: CreativeCub
-*/
+   
 
 #include<stdio.h>
 
@@ -42,6 +39,3 @@ int isPrime(int num,int i)
 }
 
 
--via Programming Hub for Android, a top rated Programming App on Google Play
-
-https://play.google.com/store/apps/details?id=com.freeit.java
