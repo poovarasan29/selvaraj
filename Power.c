@@ -1,4 +1,4 @@
-Program: Find Power of Number (x^n)
+
 
 #include <stdio.h>
 int main()
@@ -9,12 +9,9 @@ int main()
   scanf("%d%d", &base, &exp);
   while (exp!=0)
   {
-      value*=base;  /* value = value*base; */
+      value*=base;  
       --exp;
   }
   printf("Answer = %d", value);
 }
 
--via Programming Hub for Android, a top rated Programming App on Google Play
-
-https://play.google.com/store/apps/details?id=com.freeit.java
