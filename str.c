@@ -1,8 +1,4 @@
-Program: Compare strings without using strcmp()
 
-/*
-    @author : CreativeCub
-*/
 #include<stdio.h>
 
 int stringCompare(char[],char[]);
@@ -47,6 +43,3 @@ int stringCompare(char str1[],char str2[]){
 }
 
 
--via Programming Hub for Android, a top rated Programming App on Google Play
-
-https://play.google.com/store/apps/details?id=com.freeit.java
