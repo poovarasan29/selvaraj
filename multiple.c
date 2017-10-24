@@ -7,14 +7,14 @@
 #include<stdio.h>
 int main()
 {
-    int n, i;
+    int a, i;
 
     printf("Enter an integer to find multiplication table: ");
-    scanf("%d",&n);
+    scanf("%d",&a);
 
     for(i=1;i<=10;++i)
     {
-        printf("%d * %d = %d\n", n, i, n*i);
+        printf("%d * %d = %d\n", a, i, a*i);
     }
 
     return 0;
