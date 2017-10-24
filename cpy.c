@@ -1,4 +1,4 @@
-Program: Copy String without using strcpy() function
+
 
 #include<stdio.h>
 
@@ -32,6 +32,3 @@ void stringCopy(char str1[],char str2[]){
 }
 
 
--via Programming Hub for Android, a top rated Programming App on Google Play
-
-https://play.google.com/store/apps/details?id=com.freeit.java
