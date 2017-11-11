@@ -1,8 +1,5 @@
-Program: Display Prime Numbers Between two Intervals
 
-/*
-    author: Creativecub
-*/
+
 
 #include <stdio.h>
 int main()
@@ -31,6 +28,4 @@ int main()
 }
 
 
--via Programming Hub for Android, a top rated Programming App on Google Play
 
-https://play.google.com/store/apps/details?id=com.freeit.java
