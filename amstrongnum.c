@@ -1,4 +1,3 @@
-Program: Armstrong Numbers From 1 to 500
 
      #include <stdio.h>
      #include <conio.h>
@@ -6,9 +5,9 @@ Program: Armstrong Numbers From 1 to 500
 	void main()
 	{
 		int num,rem,qub,sum=0,i;
-		printf("Armstrong numbers between 1 to 500 are: \n");
+		printf("Armstrong numbers between 350 to 450 are: \n");
 
-		for(i=1; i<=500; i++)
+		for(i=350; i<=450; i++)
 		{
             num=i;
             sum=0;
@@ -29,6 +28,4 @@ Program: Armstrong Numbers From 1 to 500
 	}
 
 
--via Programming Hub for Android, a top rated Programming App on Google Play
 
-https://play.google.com/store/apps/details?id=com.freeit.java
