@@ -35,7 +35,7 @@ int isPrime(int num,int i)
             return 0;
        else
             isPrime(num,i-1);
-    }
+   return 0;    }
 }
 
 
