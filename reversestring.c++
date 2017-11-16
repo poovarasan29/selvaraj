@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int main( )
+Void main( )
 {
 	char str[80];
 	int temp,l,i,j;
@@ -24,7 +24,7 @@ int main( )
 
 	cout<<"Reverse of String : "<<str;
 
-	return 0;
+	
 }
 
 
