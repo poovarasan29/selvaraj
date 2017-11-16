@@ -8,22 +8,22 @@ int isPrime(int,int);
 int main()
 {
 
-    int num,prime;
+    int n,prime;
 
     printf("Enter a positive number: ");
-    scanf("%d",&num);
+    scanf("%d",&n);
 
-    prime = isPrime(num,num/2);
+    prime = isPrime(n,n/2);
 
     if(prime==1)
-        printf("%d is a prime number",num);
+        printf("%d is a prime number",n);
     else
-        printf("%d is not a prime number",num);
+        printf("%d is not a prime number",n);
 
     return 0;
 }
 
-int isPrime(int num,int i)
+int isPrime(int n,int i)
 {
     if(i==1)
     {
@@ -31,10 +31,10 @@ int isPrime(int num,int i)
     }
     else
     {
-       if(num%i==0)
+       if(n%i==0)
             return 0;
        else
-            isPrime(num,i-1);
+            isPrime(n,i-1);
    return 0;    }
 }
 
