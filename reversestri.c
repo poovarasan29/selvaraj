@@ -6,12 +6,12 @@
 
 
 
-Void main( )
+int main( )
 {
-	char str[80];
+	char str[40];
 	int temp,l,i,j;
 	gets(str);
-        printf("enter a string: ");
+        printf("enter string: ");
 	for(l=0;str[l]!='\0';l++);    
 	for(i=0,j=l-1;i<l/2;i++,j--)
 	{
@@ -25,4 +25,5 @@ Void main( )
 	
 }
 
-
+return 0;
+}
