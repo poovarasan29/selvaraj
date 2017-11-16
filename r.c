@@ -1,13 +1,11 @@
-Program: Reversing the order of words in a sentence
+
 
 #include<stdio.h>
 #include<string.h>
 int main()
-{
-    //the array to store the entered sentence
-    char *text=(char *)malloc(100*sizeof(char));
+{   char *text=(char *)malloc(100*sizeof(char));
 
-    //used for storing words
+    
     char *temp=(char *)malloc(10*sizeof(char));
 
     printf("Enter the line of text(length<100 and word length <10)\n");
@@ -20,7 +18,7 @@ int main()
     while(text[ctr]!='\0')
         if(text[ctr++]==' ')
         {
-            //count number of words by counting spaces
+            
             words++;
         }
 
@@ -68,6 +66,3 @@ int main()
 }
 
 
--via Programming Hub for Android, a top rated Programming App on Google Play
-
-https://play.google.com/store/apps/details?id=com.freeit.java
