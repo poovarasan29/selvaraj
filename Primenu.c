@@ -4,12 +4,12 @@
 #include <stdio.h>
 int main()
 {
-  int n1, n2, i, j, flag;
+  int a, b, i, j, flag;
   printf("Enter two numbers(interval) : ");
-  scanf("%d %d", &n1, &n2);
+  scanf("%d %d", &a, &b);
 
-  printf("Prime numbers between %d and %d are: ", n1, n2);
-  for(i=n1+1; i<n2; ++i)
+  printf("Prime numbers between %d and %d are: ", a, b);
+  for(i=a+1; i<b; ++i)
   {
       flag=0;
       for(j=2; j<=i/2; ++j)
