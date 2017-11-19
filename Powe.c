@@ -3,14 +3,14 @@
 #include <stdio.h>
 int main()
 {
-  int base, exp;
+  int base, expr;
   double double int value=1;
   printf("Enter base number and exponent respectively: ");
-  scanf("%d%d", &base, &exp);
-  while (exp!=0)
+  scanf("%d%d", &base, &expr);
+  while (expr!=0)
   {
       value*=base;  
-      --exp;
+      --expr;
   }
   printf("Answer = %d", value);
 }
