@@ -1,4 +1,3 @@
-Program: Calculate Square of 'n' numbers
 
     #include<stdio.h>
     #include<conio.h>
@@ -23,6 +22,3 @@ Program: Calculate Square of 'n' numbers
     }
 
 
--via Programming Hub for Android, a top rated Programming App on Google Play
-
-https://play.google.com/store/apps/details?id=com.freeit.java
