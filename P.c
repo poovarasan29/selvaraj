@@ -1,4 +1,4 @@
-Program: Palindrome Using Array
+
 
 #include <stdio.h>
 #include <string.h>
@@ -30,6 +30,3 @@ void main()
     }
 }
 
--via Programming Hub for Android, a top rated Programming App on Google Play
-
-https://play.google.com/store/apps/details?id=com.freeit.java
