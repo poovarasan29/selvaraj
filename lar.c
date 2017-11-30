@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-int k,b,c;
+int k,b,m;
 printf("enter the num: ");
-scanf("%d%d%d",&k,&b,&c);
+scanf("%d%d%d",&k,&b,&m);
 if(k<b)
 {
-   if(b<c)
+   if(b<m)
   {
-     printf("largest num: %d",c);
+     printf("largest num: %d",m);
    }
    else 
    if(b>c)
