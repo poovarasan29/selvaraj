@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-int a,b,c;
+int k,b,c;
 printf("enter the num: ");
-scanf("%d%d%d",&a,&b,&c);
-if(a<b)
+scanf("%d%d%d",&k,&b,&c);
+if(k<b)
 {
    if(b<c)
   {
@@ -18,6 +18,6 @@ if(a<b)
     }
 else
 {
-printf("largest num: %d",a);
+printf("largest num: %d",k);
 }
 
