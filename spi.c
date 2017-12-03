@@ -2,7 +2,7 @@
 
 int main()
 {
-    static int array[10][10];
+    static int array[4][4];
     int i, j, m, n;
     int counter = 0;
 
@@ -34,4 +34,3 @@ int main()
 }
 
 
-My lesson highlights! Check it out on your phone in Programming Hub: https://goo.gl/D2iETN
