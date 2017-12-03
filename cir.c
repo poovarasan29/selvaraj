@@ -3,7 +3,7 @@
 int main()
 {
 
-    int rad;
+    int rad,b,h,l,w;
     float PI = 3.14, area, ci;
 
     printf("\nEnter radius of circle: ");
@@ -14,9 +14,12 @@ int main()
 
     ci = 2 * PI * rad;
     printf("\nCircumference : %f ", ci);
-
+     Rec=l*w;
+    printf(" \nrectangle :%f",area);
+    Tri=l*b/2;
+    printf("\ntringle :%f",area);
     return 0;
 }
 
 
-My lesson highlights! Check it out on your phone in Programming Hub: https://goo.gl/D2iETN
+s://goo.gl/D2iETN
