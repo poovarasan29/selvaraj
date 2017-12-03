@@ -26,4 +26,3 @@ void towers(int num, char frompeg, char topeg, char auxpeg)
 }
 
 
-My lesson highlights! Check it out on your phone in Programming Hub: https://goo.gl/D2iETN
