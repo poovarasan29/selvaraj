@@ -19,14 +19,14 @@ void main()
 	for (i = 0; i < n; i++)
 
 	{
-
-		 = a + b;
+          c=a+b;
+		
 
 		a = b;
 
 		b = c;
 
-		printf("\t%d", c);
+		printf("\t%d",  c+1);
 
 	}
 
