@@ -113,4 +113,3 @@ int main()
 }
 
 
-My lesson highlights! Check it out on your phone in Programming Hub: https://goo.gl/D2iETN
