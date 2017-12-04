@@ -2,20 +2,20 @@
 
 int main()
 {
-    int n, c, d, a[100], b[100];
+    int k, c, d, a[100], b[100];
 
     printf("Enter the number of elements in array\n");
-    scanf("%d", &n);
+    scanf("%d", &k);
 
 
-    for (c = 0; c < n; c++)
+    for (c = 0; c < k; c++)
         scanf("%d", &a[c]);
 
     /*
      * Copying elements into array b starting from end of array a
      */
 
-    for (c = n - 1, d = 0; c >= 0; c--, d++)
+    for (c = k- 1, d = 0; c >= 0; c--, d++)
         b[d] = a[c];
 
     /*
@@ -23,12 +23,12 @@ int main()
      * Here we are modifying original array, this is optional.
      */
 
-    for (c = 0; c < n; c++)
+    for (c = 0; c < k; c++)
         a[c] = b[c];
 
     printf("Reverse array is\n");
 
-    for (c = 0; c < n; c++)
+    for (c = 0; c < k; c++)
         printf("%d\n", a[c]);
 
     return 0;
