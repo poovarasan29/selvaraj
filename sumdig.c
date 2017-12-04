@@ -30,4 +30,3 @@ int add_digits(int n)
     return sum;
 }
 
-My lesson highlights! Check it out on your phone in Programming Hub: https://goo.gl/D2iETN
