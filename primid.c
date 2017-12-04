@@ -1,10 +1,9 @@
-/*
-     *
-    ***
-   *****
-  *******
- *********
-*/
+
+     
+   
+  
+
+
 
 #include <stdio.h>
 
@@ -27,7 +26,7 @@ int main()
         temp--;
 
         for (c = 1; c <= 2 * row - 1; c++)
-            printf("*");
+            printf("1");
 
         printf("\n");
 
@@ -36,4 +35,3 @@ int main()
     return 0;
 }
 
-My lesson highlights! Check it out on your phone in Programming Hub: https://goo.gl/D2iETN
