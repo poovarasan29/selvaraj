@@ -2,12 +2,12 @@
 
 int main()
 {
-    int k, i, sum = 0;
+    int h, i, sum = 0;
 
     printf("Enter the number : ");
-    scanf("%d", &k);
+    scanf("%d", &h);
 
-    for (i = 1; i <= k; i++)
+    for (i = 1; i <= h; i++)
         sum += i * i;
 
     printf("sum : %d", sum);
