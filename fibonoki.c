@@ -6,7 +6,7 @@ void main()
 
 {
 
-	int k, b, c, i, n; k =0; b=1;
+	int k, b, h, i, n; k =0; b=1;
 	
 
 	
@@ -25,9 +25,9 @@ void main()
 
 		K = b;
 
-		b = c;
+		b = h;
 
-		printf("\t%d",  c);
+		printf("\t%d", h);
 
 	}
 
