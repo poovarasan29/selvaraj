@@ -23,7 +23,7 @@ void main()
           c=k+b;
 		
 
-		 = b;
+		K = b;
 
 		b = c;
 
