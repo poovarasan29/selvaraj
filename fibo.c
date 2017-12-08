@@ -6,27 +6,28 @@ void main()
 
 {
 
-	int a, b, c, i, n;
+	int k, b, c, i, n; k =0; b=1;
+	
 
-	a = 0;
-	b = 1;
+	
+	
 
 	printf("Enter a number to define the length of fibonacci series: ");
 	scanf("%d", &n);
 	printf("\nThe Series is: \n");
-	printf("%d\t%d", a, b);
+	printf("%d\t%d", k, b);
 
 	for (i = 0; i < n; i++)
 
 	{
-          c=a+b;
+          c=k+b;
 		
 
-		a = b;
+		 = b;
 
 		b = c;
 
-		printf("\t%d",  c+1);
+		printf("\t%d",  c);
 
 	}
 
