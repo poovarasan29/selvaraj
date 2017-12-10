@@ -1,14 +1,4 @@
-/*
-      *
-     * *
-    *   *
-   *     *
-  *       *
-   *     *
-    *   *
-     * *
-      *    
-*/
+
 
 #include<stdio.h>
 
@@ -23,7 +13,7 @@ int main()
             printf(" ");
         }
 
-        printf("*");
+        printf("i");
 
         for (j = 1; j < (i - 1) * 2; j++)
         {
@@ -36,7 +26,7 @@ int main()
         }
 
         else
-        { printf("*\n"); }
+        { printf("i\n"); }
     }
 
     for (i = 4; i >= 1; i--)
@@ -46,7 +36,7 @@ int main()
             printf(" ");
         }
 
-        printf("*");
+        printf("j");
 
         for (j = 1; j < (i - 1) * 2; j++)
         {
@@ -58,11 +48,11 @@ int main()
             printf("\n");
         }
         else
-        { printf("*\n"); }
+        { printf("j\n"); }
     }
 
     return 0;
 }
 
 
-My lesson highlights! Check it out on your phone in Programming Hub: https://goo.gl/D2iETN
+ 
