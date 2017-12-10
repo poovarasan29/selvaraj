@@ -1,12 +1,4 @@
-/*
-1     1
- 2   2
-  3 3
-   4
-  3 3
- 2   2
-1     1
-*/
+
 
 #include<stdio.h>
 
@@ -51,4 +43,5 @@ int main()
 }
 
 
-My lesson highlights! Check it out on your phone in Programming Hub: https://goo.gl/D2iETN
+
+     
