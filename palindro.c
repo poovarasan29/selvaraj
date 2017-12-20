@@ -4,12 +4,12 @@
 
 int main()
 {
-   int d, reverse = 0, temp;
+   int s, reverse = 0, temp;
 
    printf("Enter a number to check if it is a palindrome or not\n");
    scanf("%d",&d);
 
-   temp = d;
+   temp = s;
 
    while( temp != 0 )
    {
@@ -18,10 +18,10 @@ int main()
       temp = temp/10;
    }
 
-   if ( d == reverse )
-      printf("%d is a palindrome number.\n", d);
+   if ( s == reverse )
+      printf("%d is a palindrome number.\n", s);
    else
-      printf("%d is not a palindrome number.\n", d);
+      printf("%d is not a palindrome number.\n", s);
 
    return 0;
 }
