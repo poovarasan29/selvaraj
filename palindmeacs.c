@@ -19,9 +19,9 @@ int main()
    }
 
    if ( g == reverse )
-      printf("%d is a palindrome numr.\n", g);
+      printf("%d is a palindrome numr asce .\n", g);
    else
-      printf("%d is not a palindrome numr.\n", g);
+      printf("%d is not a palindrome numrasce .\n", g);
 
    return 0;
 }
