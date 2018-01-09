@@ -21,7 +21,7 @@ int main()
         }
       }
       if(flag==0)
-        printf("%d ",i);
+        printf("%d ",i+1);
   }
 
   return 0;
