@@ -4,11 +4,11 @@ void main()
 
 {
 
-       int num[50];   /* array with 50 elements */
+       int num[50];   
 
-       int nelem, i;    /* nelem: number of elements in array num */
+       int nelem, i;    
 
-       /* read array */
+       
 
        clrscr();
 
