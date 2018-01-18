@@ -5,7 +5,7 @@
 int main(){
     char inputString[1001], outputArray[1001];
     int readIndex = 0, writeIndex;
-    printf("Enter a String \n");
+    printf("Enter the String \n");
     gets(inputString);
     
     while(inputString[readIndex] == ' '){
@@ -20,7 +20,7 @@ int main(){
       writeIndex++;
     }
     outputArray[writeIndex] = '\0';
-    printf("String without extra spaces\n%s", outputArray);
+    printf("String without extra a spaces\n%s", outputArray);
  
     getch();
     return 0;
