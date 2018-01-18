@@ -3,7 +3,7 @@
 #include <string.h>
  
 int main(){
-    char inputString[100], outputArray[100];
+    char inputString[1001], outputArray[1001];
     int readIndex = 0, writeIndex;
     printf("Enter a String \n");
     gets(inputString);
