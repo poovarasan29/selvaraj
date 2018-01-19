@@ -9,6 +9,6 @@ for(i=1;i<=p)
 i++;
 sum=sum*i;
 }
-printf("sum of factorial %d",sum);
+printf(" factorial %d",sum);
 return 0;
 }
