@@ -16,7 +16,7 @@ void main()
 
         {
 
-               if (num % 2 == 1)
+               if (num % 2 == 0)
 
                   printf ("%d ", num);
 
