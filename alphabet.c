@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-char ch;
+char ch,a,z,A,Z;
 printf("enter the character:");
-scanf("%c",&c);
-if(ch>=a&&c<=z)||(c>A&&ch<=Z)
+scanf("%c",&ch);
+if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))
 {
 printf("character is alphabet");
 }
