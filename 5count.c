@@ -6,5 +6,5 @@ int main()
   {
   printf("helloword\n");
   }
-  returnn 0;
+  return 0;
   }
