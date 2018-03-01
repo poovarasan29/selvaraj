@@ -1,28 +1,18 @@
-
-
-
-
 #include <stdio.h>
 
-int main()
-{
-   int n, sum = 0, c, value;
-
-   printf("Enter the number of integers you want to add : ");
-   scanf("%d", &n);
-
-   printf("Enter %d integers : \n",n);
-
-   for (c = 1; c <= n; c++)
-   {
-      scanf("%d",&value);
-      sum = sum + value;
-   }
-
-   printf("Sum of entered integers = %d\n",sum);
-
-   return 0;
+int main() {
+	
+	int a,s=0;
+	scanf("%d",&a);
+	for(int i=0;i<=a;i++)
+	{
+		s=s+i;
+	}
+	printf("%d",s);
+	return 0;
 }
+
+
 
 
 
