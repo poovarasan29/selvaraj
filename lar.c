@@ -11,7 +11,7 @@ if(k<b)
      printf("largest num: %d",m);
    }
    else 
-   if(b>c)
+   if(b>k)
     {
       printf("largest num: %d",b);
      }
@@ -21,3 +21,5 @@ else
 printf("largest num: %d",k);
 }
 
+    return 0;
+}
