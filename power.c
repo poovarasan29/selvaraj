@@ -2,12 +2,12 @@
 #include<math.h>
 int main()
 {
- int n,k,ans;
+ int n,r,ans;
 printf("enthr the num:");
 scanf("%d",&n);
 printf("enter the power:");
-scanf("%d",&k);
-ans=pow(n,k);
+scanf("%d",&r);
+ans=pow(n,r);
 printf("%d",ans);
 return 0;
 }
