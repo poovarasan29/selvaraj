@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-int n,i,k=0;
-scanf("%d",&n);
-for(i=2;i<n;i++)
+int a,i,k=0;
+scanf("%d",&a);
+for(i=2;i<a;i++)
 {
-    if(n%i==0)
+    if(a%i==0)
         ++k;
 }
 if(k==0)
